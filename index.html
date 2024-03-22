@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Image Gallery</title>
+<style>
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.image-gallery img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 5px;
+  border: 2px solid;
+}
+
+
+@media screen and (max-width: 320px) {
+  .image-gallery {
+    justify-content: flex-start;
+  }
+  .cls1{
+    display: none;
+  }
+  
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 420px) {
+  .image-gallery {
+    justify-content: space-between;
+  }
+}
+
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .image-gallery {
+    justify-content: space-around;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  .image-gallery {
+    justify-content: space-evenly;
+  }
+}
+</style>
+</head>
+<body>
+<div class="image-gallery">
+  <img src="https://m.media-amazon.com/images/I/81h388vryQS._AC_UF1000,1000_QL80_.jpg">
+</div>
+
+
+<div class="image-gallery">
+  <img src="https://www.tallengestore.com/cdn/shop/products/TheConjuring2-HollywoodEnglishHorrorMoviePoster_cdaa6634-6fba-423b-a053-e304f4e86aa4.jpg?v=1625220795">
+  <img src="https://m.media-amazon.com/images/I/71iWWDDWdJL._AC_UF1000,1000_QL80_.jpg">
+  <img src="https://www.indiewire.com/wp-content/uploads/2017/05/the-witch-2015.jpg?w=675">
+  <img src="https://m.media-amazon.com/images/I/81dzWlccrGS.jpg">
+</div>
+
+
+<div class="image-gallery">
+  <img src="https://www.indiewire.com/wp-content/uploads/2017/05/let-the-right-one-in-2008.jpg?w=674">
+  <img src="https://media.newstracklive.com/uploads/entertainment/hollywood-news/Oct/17/big_thumb/h1_5bc6ba62dba87.jpg">
+  <img src="https://i.pinimg.com/564x/4a/5a/47/4a5a4731fdd62bba7b3b65643b34d13d.jpg">
+  <img src="https://assets.hongkiat.com/uploads/horror-movie-posters/howling.jpg">
+  <img src="https://www.tallengestore.com/cdn/shop/products/NightmareOnElmStreet-2010-HollywoodEnglishHorrorMoviePoster_516dbac9-7a4a-4c79-8074-a9bd68255f27.jpg?v=1625220728">
+  <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00021990-uwqevplrdh-portrait.jpg">
+  <img src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2021/08/prisoners-of-the-ghostland-poster.png?resize=694%2C1024&ssl=1">
+  <img src="https://marketplace.canva.com/EAFVCFkAg3w/1/0/1131w/canva-red-and-black-horror-movie-poster-AOBSIAmLWOs.jpg">
+  <img src="https://www.tallengestore.com/cdn/shop/products/TheShining-JackNicholson-StanleyKubrickClassicHorrorMovie-FanArt-HollywoodEnglishMoviePoster_c0646bbb-531c-470e-8265-17a77622d928.jpg?v=1634645693" alt="">
+</div>
+
+
+<div class="image-gallery">
+  <img src="https://imgc.allpostersimages.com/img/posters/hellraiser_u-L-F4S78J0.jpg">
+  <img src="https://filmfare.wwmindia.com/content/2021/aug/best-english-horror-movie-dead-silence-61629283628.jpg">
+  <img src="https://m.media-amazon.com/images/M/MV5BMjI5MTg1Njg0Ml5BMl5BanBnXkFtZTcwNzg2Mjc4Nw@@._V1_FMjpg_UX1000_.jpg">
+  <img src="https://i.pinimg.com/736x/a8/56/ba/a856ba92f0359d4280378f8cce44a15e.jpg">
+  <img src="https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/09/deliver-us-from-evil-film-poster.jpg">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQat2wwh8gtC_oncaDs85mH5ruP32nRUhmizA&usqp=CAU">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXGCJFLozKElGjnoiMdqvfydH3rIU7pr56g&usqp=CAU">
+  <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00361556-hqbcvqaxpm-portrait.jpg">
+  <img src="https://i.pinimg.com/736x/0b/b8/99/0bb89901dc62ba92fa9485b04afd7d3b.jpg">
+  <img src="https://m.media-amazon.com/images/I/81zUVBYqInL.jpg">
+  <img src="https://hips.hearstapps.com/hmg-prod/images/best-horror-movies-2023-the-pale-blue-eye-644ade316abee.jpeg?crop=1xw:1xh;center,top&resize=980:*">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV8XPPvd3HM6HtRBjKbc52isAxoHQQREem8Q&usqp=CAU">
+  <img src="https://www.liveabout.com/thmb/lSWFdeBRnwlrrdjQU51j-PbknOA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Salvage-5908c4a95f9b5864704c70c0.jpg">
+  <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00382581-wnbbnslddu-portrait.jpg">
+  <img src="https://i.pinimg.com/736x/f7/87/4c/f7874c450f255e3bcfaa7603657b43a6.jpg">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFlT1aHtmyA4AFX30EQ2GYugv05GZWlCkJ3g&usqp=CAU">
+</div>
+
+</body>
+</html>
